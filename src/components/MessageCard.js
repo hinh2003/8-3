@@ -181,12 +181,9 @@ const CustomHeart = ({ color }) => (
 );
 
 const messages = [
-    "Gửi đến người phụ nữ tuyệt vời nhất trong cuộc đời anh, em mang đến niềm vui và hạnh phúc cho mỗi ngày.",
-    "Nụ cười của em thắp sáng thế giới của anh, và tình yêu của em lấp đầy trái tim anh bằng sự ấm áp.",
-    "Vào ngày đặc biệt này, anh muốn em biết em có ý nghĩa như thế nào đối với anh.",
-    "Em không chỉ là bạn gái của anh, em là bạn thân nhất của anh, là người bạn tâm giao và là tất cả của anh.",
-    "Anh trân trọng từng khoảnh khắc chúng ta bên nhau, và anh mong muốn tạo ra nhiều kỷ niệm đẹp hơn nữa.",
-    "Chúc mừng Ngày Phụ nữ, tình yêu của anh! Em xứng đáng có được tất cả hạnh phúc trên thế giới này."
+    "Chúc bạn một ngày 8/3 thật vui vẻ và tràn đầy hạnh phúc! Mong rằng bạn luôn rạng rỡ, tự tin và đạt được mọi điều mình mong muốn.",
+    "Cảm ơn bạn vì đã luôn là một người tuyệt vời, mang lại năng lượng tích cực cho những người xung quanh.",
+    "Chúc bạn luôn gặp nhiều may mắn và niềm vui trong cuộc sống!.",
 ];
 
 // Then update the MessageCard component to accept and pass the prop:
@@ -415,7 +412,7 @@ const MessageCard = ({ marginBottom }) => {
                                 repeatType: "reverse"
                             }}
                         >
-                            I Love You
+                           hihihihihi....
                         </motion.div>
                     </FinalMessage>
                 </FullscreenOverlay>

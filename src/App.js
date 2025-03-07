@@ -109,37 +109,6 @@ const PuppyContainer = styled(motion.div)`
     filter: blur(5px);
   }
 `;
-
-// Decorative frame around the puppy
-// const PuppyFrame = styled.div`
-//   position: absolute;
-//   width: 80%;
-//   height: 90%;
-//   border: 2px dashed rgba(255, 105, 180, 0.3);
-//   border-radius: 20px;
-//   z-index: 4;
-//   pointer-events: none;
-  
-//   &:before, &:after {
-//     content: '';
-//     position: absolute;
-//     width: 20px;
-//     height: 20px;
-//     border-radius: 50%;
-//     background-color: rgba(255, 105, 180, 0.5);
-//   }
-  
-//   &:before {
-//     top: -10px;
-//     left: -10px;
-//   }
-  
-//   &:after {
-//     bottom: -10px;
-//     right: -10px;
-//   }
-// `;
-
 function App() {
   const modelViewerRef = useRef(null);
   
@@ -205,7 +174,7 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        Chúc mừng ngày 8/3, cún iu cụa anhhh!
+        Hihi! 8/3 vui vẻ nhennnn.....
       </Title>
       
       <PuppyContainer
